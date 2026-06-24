@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/logo.svg" width="128" alt="股权转让审核 Skill logo">
+</p>
+
 # 股权转让审核 Skill
 
 这是一个面向中国法语境的开源法律 skill，用于辅助律师、法务或 AI agent 审查股权转让、股份转让、持股平台份额转让和投融资退出类交易。
@@ -21,6 +25,7 @@ missing materials, clause revision suggestions, and closing conditions.
 ```text
 SKILL.md                       # Agent 运行入口
 agents/openai.yaml             # Skill metadata
+assets/logo.svg                # Project logo
 references/contract-review-playbook.md
 references/materials-checklist.md
 references/risk-taxonomy.md
