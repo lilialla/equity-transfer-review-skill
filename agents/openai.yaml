@@ -1,6 +1,6 @@
 interface:
   display_name: "股权转让审核"
-  short_description: "股权转让协议审查、尽调红旗与交割条件生成"
-  default_prompt: "Use $equity-transfer-review-skill to review an equity transfer deal and produce red flags, missing materials, and closing conditions."
+  short_description: "股权/股份/持股平台份额转让审查、交易分流、尽调红旗与交割条件生成"
+  default_prompt: "Use $equity-transfer-review-skill to review this equity or equity-like transfer deal. First classify the transaction scenario, then produce intake questions if materials are missing, evidence labels, red flags, missing materials, clause revision suggestions, regulatory gates, and closing conditions."
 policy:
   allow_implicit_invocation: true

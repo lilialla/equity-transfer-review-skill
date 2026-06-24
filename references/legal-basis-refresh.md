@@ -35,6 +35,20 @@ Record:
 
 Commercial databases and AI search tools may help discover issues, but mark them as `platform_found` or `unverified` until official-source verification is done.
 
+## Regulatory Gate Matrix
+
+Use this matrix to convert regulatory uncertainty into closing controls. Do not treat these rows as legal conclusions; use them as triggers for official-source verification.
+
+| Gate | Trigger facts | Official-source check | Completion evidence | Transaction control |
+|---|---|---|---|---|
+| State-owned assets | State-owned transferor, target, actual controller, asset source, or public asset concern. | Approval authority, valuation/appraisal, appraisal filing or approval, public listing or asset exchange rules, local SASAC requirements. | Approval, valuation/appraisal filing, listing documents, asset exchange transaction certificate, no-objection evidence. | Hard condition precedent, closing deferral, no-waiver rule, long-stop termination. |
+| Listed or NEEQ transfer | Listed/NEEQ company, controlling shareholder, restricted shares, related-party transfer, director/supervisor/senior manager, disclosure window. | CSRC, stock exchange, NEEQ rules, issuer announcements, lock-up and disclosure rules. | Disclosure announcement, exchange or NEEQ filing, board/shareholder approval, lock-up clearance. | Disclosure CP, transfer method confirmation, trading-window control, termination right. |
+| Foreign investment | Foreign investor, foreign-invested target, negative-list industry, sensitive sector, control transfer, cross-border payment. | Foreign investment access negative list, market-regulation filing, MOFCOM/NDRC/State Council publications, industry regulator rules. | Filing/registration receipt, permit update, regulator consultation record, no-filing analysis with source limits. | Approval/filing CP, permit amendment deliverable, bank pre-review, closing deferral. |
+| Financial or licensed industry | Finance, education, medical, telecom, internet, culture, data-heavy, cybersecurity, or other licensed sector. | Competent industry regulator, license issuer, permit transfer/change rules, data/cyber regulator. | Approval, permit amendment, no-objection, regulator consultation, compliance memo. | Industry approval CP, operating covenant, post-closing permit deadline only if legally acceptable. |
+| Merger control | Control acquisition, joint control, revenue threshold concern, concentrated market, sensitive sector. | SAMR rules, thresholds, official cases and guidance. | Clearance, simplified-case publication, no-filing memo, counsel/regulator consultation record. | Clearance CP, gun-jumping covenant, long-stop, reverse termination allocation. |
+| National security or data/cyber | Sensitive industry, critical infrastructure, important data, data export, foreign control, security review concern. | Official security review, CAC, MIIT, public-security or sector regulator sources. | Security review decision, data export/security assessment evidence, no-trigger analysis with source limits. | Hard CP, data-room limits, closing deferral, termination right. |
+| Tax, FX, and payment | Natural person, non-resident, low price, indirect transfer, cross-border payment, offshore structure, installment or escrow. | Tax authority, SAFE, bank requirements, transaction-specific bank feedback. | Tax declaration/payment evidence, withholding evidence, stamp duty proof, bank pre-review, FX registration if applicable. | Tax/FX CP, escrow release condition, withholding covenant, refund/gross-up mechanism. |
+
 ## Regulatory Screen
 
 Ask these questions before concluding:
@@ -54,7 +68,7 @@ For each regulatory issue, output:
 | Trigger fact | The fact that may trigger regulation. |
 | Source | Official source or marked platform/user source. |
 | Legal question | Approval, filing, disclosure, lock-up, tax, FX, industry qualification, or data/cyber issue. |
-| Current status | Verified, single-source, platform-found, conflict, or unverified. |
+| Current status | Use one of `verified`, `single_source_database`, `platform_found`, `case_file_claim`, `model_inference`, `unverified`, or `conflict`. |
 | Transaction impact | Blocker, condition precedent, timetable risk, disclosure risk, price or liability risk. |
 | Next step | Specific official check, document request, counsel call, regulator consultation, or filing plan. |
 

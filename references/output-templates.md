@@ -69,6 +69,36 @@ Prefer objective completion standards:
 - Tax declaration proof or withholding evidence.
 - Updated shareholder register or registration file.
 
+## Hard Stop Checklist
+
+Use this table when an issue may block signing, closing, registration, payment release, legality, disclosure, or control transfer.
+
+```markdown
+| 硬阻断事项 | 触发事实 | 当前状态 | 完成标准 | 未完成后果 | 是否可豁免 |
+|---|---|---|---|---|---|
+| 国资评估/进场交易 |  | verified / unverified / conflict |  |  | 不建议豁免/可附条件豁免 |
+```
+
+Rules:
+
+- Do not mark a hard stop as waived unless the legal basis and commercial instruction are both clear.
+- If the issue is only suspected, mark it as `信息缺口` and state the minimum fact needed to classify it.
+- Tie every hard stop to a condition precedent, closing deferral, long-stop date, or termination right.
+
+## Regulatory Gate Table
+
+```markdown
+| 监管闸门 | 是否触发 | 触发事实 | 核验来源 | 完成证据 | 交易控制 |
+|---|---|---|---|---|---|
+| 国资 | 是/否/不明 |  |  |  |  |
+| 上市/新三板 | 是/否/不明 |  |  |  |  |
+| 外资/监管行业 | 是/否/不明 |  |  |  |  |
+| 经营者集中/国家安全/数据安全 | 是/否/不明 |  |  |  |  |
+| 税务/外汇/跨境付款 | 是/否/不明 |  |  |  |  |
+```
+
+Use official or primary sources for legal conclusions. Commercial-platform findings may identify issues but must remain `platform_found` until official-source verification is complete.
+
 ## Source Register
 
 ```markdown
@@ -94,17 +124,19 @@ Use evidence labels when helpful:
 
 ## 一、审查范围与资料
 
-## 二、交易画像
+## 二、交易画像与类型分流
 
 ## 三、结论摘要
 
-## 四、红旗问题
+## 四、硬阻断事项与监管闸门
 
-## 五、资料缺口与核验事项
+## 五、红旗问题
 
-## 六、条款修改与交割条件
+## 六、资料缺口与核验事项
 
-## 七、来源登记与限制说明
+## 七、条款修改与交割条件
+
+## 八、来源登记与限制说明
 ```
 
 Do not style an internal memo as a formal legal opinion unless the user expressly asks for an opinion-ready version and provides enough verified materials.

@@ -44,6 +44,23 @@ Request or inspect:
 - Spouse consent, inheritance documents, guardianship or minority capacity documents, bankruptcy administrator consent, or executor documents when natural-person facts indicate a need.
 - Industry permits, regulatory approvals, foreign investment documents, SASAC or state-owned asset transaction documents, listed-company or NEEQ disclosures, merger-control materials, cybersecurity or data-export materials when applicable.
 
+## Scenario-Specific Materials
+
+Use this section after classifying the deal with `scenario-gates.md`.
+
+| Scenario | Additional materials |
+|---|---|
+| Limited-liability company equity transfer | Preemptive-right notices and receipts, other shareholders' written waiver or consent, shareholder meeting resolution, revised articles, shareholder register update, market-regulation filing package. |
+| Contribution liability | Subscription schedule, paid-in proof, capital verification report if any, non-cash contribution valuation, historical contribution transfer documents, creditor notices or acceleration materials, contribution defect cure evidence. |
+| 股份公司股份转让 | Share register, share certificate or depository record, restricted-share status, lock-up documents, board/shareholder approval, disclosure documents, transfer venue or method confirmation. |
+| Partnership or employee platform unit transfer | Partnership agreement, GP consent, platform management rules, incentive plan, vesting and repurchase records, employee consent, tax withholding arrangement, updated partner or platform register. |
+| Upper-level holding vehicle transfer | Upstream cap table, offshore or domestic holding documents, investment agreements, change-of-control clauses, downstream consent or no-breach confirmation, indirect transfer tax analysis materials. |
+| Offshore or VIE interest transfer | Offshore registry documents, VIE control agreements, ODI/FDI/SAFE materials, foreign investment access analysis, bank pre-review list, tax filing documents, data/cyber materials if relevant. |
+| State-owned asset transfer | Internal approval, asset valuation report, appraisal filing or approval, public listing documents, asset exchange transaction documents, local SASAC or competent authority requirements. |
+| Listed, NEEQ, or securities-regulated transfer | Lock-up status, disclosure plan, exchange/NEEQ rules check, related-party transaction approval, insider information control record, reduction or transfer compliance confirmation. |
+| Tax, foreign exchange, and payment | Tax basis documents, tax declaration forms, withholding evidence, stamp duty proof, bank account and payment route materials, FX registration or bank review documents for cross-border payment. |
+| Merger control or competition | Revenue data, control structure before/after, market share materials, filing threshold analysis, no-gun-jumping covenant, clearance or no-filing memo. |
+
 ## Public Search Register
 
 When using public or platform sources, record:
